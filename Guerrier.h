@@ -1,3 +1,5 @@
+#ifndef E8E0BAFE_2705_4EE5_AC90_844E4CE300BC
+#define E8E0BAFE_2705_4EE5_AC90_844E4CE300BC
 #include <string>
 #include "Element.h"
 
@@ -14,3 +16,4 @@ class Guerrier : public Element
     Guerrier();
     virtual ~Guerrier();
 };
+#endif /* E8E0BAFE_2705_4EE5_AC90_844E4CE300BC */
