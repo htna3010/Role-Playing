@@ -9,3 +9,8 @@ Element::Element(Position p) : pos(p)
 Element::Element() : pos(NULL)
 {
 }
+
+Element::~Element() 
+{
+    delete pos;
+}
